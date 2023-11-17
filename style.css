@@ -1,0 +1,125 @@
+/* LES POLICES DU PROJET */
+@font-face {
+  font-family: "FSP DEMO - Etna X Condensed";
+  src: url("font/Fontspring-DEMO-etnaxcondensed-regular.otf") format("opentype")
+}
+@font-face {
+  font-family: "Avant Garde";
+  src: url("font/ITC Avant Garde Gothic Medium.otf") format("opentype")
+}
+@font-face {
+  font-family: "Avant Garde Extra Light";
+  src: url("font/itc-avant-garde-gothic-lt-extra-light.ttf") format("truetype")
+}
+
+/* DEBUT DU RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  font-family: "Avant Garde", Arial, sans-serif;
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* FIN DU RESET */
+
+
+/* HEADER */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px 50px;
+  background-color: #fc020b;
+}
+.fa {
+  margin: 0 20px;
+  color: #fec4c3;
+}
+/* FIN DU HEADER */
+
+/* MAIN */
+/* BANNIERE */
+.banniere {
+  background-color: #fc020b;
+}
+/* FIN DE LA BANNIERE */
+/* FIN DU MAIN */
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+  background-color: #fc020b;
+}
+h2 {
+  font-family: "FSP DEMO - Etna X Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  color: rgb(255, 194, 194);
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list li {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Avant Garde Extra Light", sans-serif;
+  font-weight: 800;
+  line-height: 25px;
+}
+.footer-description {
+  font-size: 12px;
+  color: rgba(255, 194, 194, 0.75);
+  line-height: 22px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+/* FIN DU FOOTER */
